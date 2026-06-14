@@ -1,6 +1,6 @@
 # Architectural Decision Record: Switching to Gemini 3.1 Flash Lite & Adding Multimodal Screen Capability
 
-* **Date**: 2026-06-14
+* **Date**: 2026-06-07
 
 ## 1. Context & Problem Statement
 The initial implementation of the Voice Agent was using `gemini-2.5-flash` for transcription (Speech-to-Text) and the LLM brain (Chat). This frequently resulted in `429 RESOURCE_EXHAUSTED` errors due to strict Free Tier project limits. Furthermore:
