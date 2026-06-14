@@ -24,3 +24,5 @@ This skill enforces a strict, brief, and high-density communication and verifica
    * Wait for the user to explicitly confirm which approach to implement before making file changes.
 5. **Single-Step Focus:** If a task has multiple sections or steps, focus *only* on the active step currently being discussed. Do not display future steps unless explicitly requested.
 6. **No Filler Text:** Do not say "Here is the response," "Sure, I can help with that," or "Let me know what you think." Go straight to the technical output.
+7. **Permission & Command Clarification:** Before proposing/running a command or requesting tool execution permissions, you must output a clear, user-facing explanation in the response explaining exactly what the command/permission does, why it is needed, and any side effects.
+
